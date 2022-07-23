@@ -1,0 +1,131 @@
+
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 9rem 0;
+    align-items: center;
+    background-color:#f1f3f2;
+}
+
+
+.about-photo img {
+    width:100%;
+    border-radius: 50%;
+}
+
+.about-photo{
+    width:30%;
+  
+}
+.about-details{
+    width:45%;
+    margin: 0;
+}
+.about-me{
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    line-height: 25px;
+    word-spacing: 10px;
+}
+
+
+.heading_about{
+    
+    font-size: 22px;
+    font-family: 'Cormorant', serif;
+    color: #0151C2;
+ 
+    margin-top: 4rem;
+}
+
+.underline_about{
+    border-bottom: 4px solid #0095FC;
+    width:8%;
+    
+}
+
+.skill{
+    margin: 4rem 0 ;
+}
+
+.skill-item{
+    width:80%;
+    margin: auto;
+}
+
+.item-language{
+    display: flex;
+    
+}
+
+.item-language{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+}
+
+.language{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.underline_language{
+    border-top: 4px solid #0093fc3c;
+    width:90%;
+    margin-top: 25px;
+    height: 25%;
+    margin-left: -20px;
+}
+.underline_languagegain{
+    border-top: 4px solid  #0151C2;
+    width:50%;
+    margin-top: -4px;
+    
+    
+    
+}
+
+.language_name{
+    padding: 25px;
+    text-align: center;
+    font-size: 23px;
+}
+
+
+    
+@media (max-width:912px) {
+    .language_name{
+        padding: 15px 25px 25px 0;
+        text-align: center;
+        font-size: 22px;
+      
+     
+    }
+    .about{
+
+        display: block;
+       
+        padding: 7rem 2.5rem;
+        
+    }
+    .about-photo {
+        width: 50%;
+        margin: auto;
+}
+.about-details {
+    width: 100%;
+    margin: 3rem 0 ;
+}
+}
+
+@media (max-width:450px) {
+    .language{
+      
+        grid-template-columns: 1fr ;
+    }
+    .about-photo {
+        width: 100%;
+        margin: auto;
+}
+}

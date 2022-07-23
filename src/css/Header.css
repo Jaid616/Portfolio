@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #0095FC;
+    height: 70px;
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content:space-around;
+    height: 70px;
+    flex-wrap: wrap;
+   
+}
+.nav-list{
+    padding: 0rem;
+margin: 0;
+width: max-content;
+position: relative;
+}
+
+.logo img{
+    margin-top: 8px;
+    width: 80px;
+}
+.navbar{
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    margin-right: 5rem; 
+}
+a{
+   
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+.navitem{
+    padding: 5px;
+    margin-left: 4rem;
+    font-size: 20px;
+    color: #7ffeff;
+    
+    
+}
+
+.navopen{
+   
+    font-size: 70px;
+    margin-left: 9rem;
+    display: none;
+    color: #7ffeff;
+}
+.navclose{
+    
+    font-size: 70px;
+    
+    color: #0151C2;
+    display: block;
+        z-index: 5;
+        position: fixed;
+        transition: 0.35s left linear;
+        top:0%;
+       
+        
+}
+
+.nav-list::after{
+    content: "";
+    width:50%;
+    height: 3.5px;
+    position: absolute;
+    bottom: -20%;
+    left:50%;
+    background-color:#ffffff;
+    transition: 1s transform;
+    transform: scaleX(0);;
+    
+}
+
+.nav-list:hover::after{
+    transform: scaleX(1);
+}
+.active{
+    color: #ffffff;
+}
+.active::after{
+    content: "";
+    width:50%;
+    height: 3.5px;
+    position: absolute;
+    bottom: -20%;
+    left:50%;
+    background-color: #ffffff;
+    transition: 1s transform;
+    transform: scaleX(1);;
+}
+
+@media (max-width:540px)  {
+    .active::after{
+
+        width:0%;
+       
+    }
+    .nav-list::after{
+     
+        width:0%;
+        
+        
+    }
+    
+    .navbar {
+        display: block;
+        width:100vw;
+       height: 100vh;
+        font-size: 20px;
+        background-color: #0095FC;
+        position: fixed;
+        top:0%;
+        left:-100%;
+        transition: 0.35s left linear;
+        z-index: 3;
+}
+    .nav-list{
+        padding: 1rem;
+    margin: auto;
+    width: max-content;
+
+    }
+    .pt{
+        padding-top: 10rem;
+        
+    }
+    .navitem{
+        margin: 2.5rem ;
+        padding: 0rem;
+        text-align: center;
+        font-size: 30px;
+}
+
+
+    .navopen{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+    }
+    
+    
+}

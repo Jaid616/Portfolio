@@ -1,0 +1,114 @@
+.contact-form{
+    width:500px;
+    height: 500px;
+    margin: 3rem auto;
+    background-color: #ffffff;
+    
+    
+}
+
+.input-tag{
+    padding-top: 2rem;
+    position: relative;
+    top: 5%;
+    left: 10%;
+    
+}
+
+.sub-btn{
+    padding: 7px;
+    background-color:  #0151C2;;
+    color: #ffffff;
+    border: none;
+    width:80px;
+    border-radius: 0.25rem;
+}
+
+.form-input{
+    width:80%;
+    padding: 8px 12px;
+    font-family: "Convergence" sans-serif;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 1px solid green;
+    margin: auto;
+    
+   
+}
+
+.input-lable{
+    cursor: text;
+    position: absolute;
+    left:3%;
+    font-family: "Convergence" sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    bottom:12%;
+    transition: 0.2s bottom ease-in ,
+                0.2s left ease-in,
+                0.2s font-size ease-in;
+}
+
+.textarea-lable{
+    top:20%;
+    cursor: text;
+    position: absolute;
+    left:3%;
+    font-family: "Convergence" sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: 0.2s top ease-in ,
+                0.2s left ease-in,
+                0.2s font-size ease-in;
+}
+.form-input:focus ~ .input-lable ,
+.form-input:not(:placeholder-shown).form-input:not(:focus) ~.input-lable
+
+
+{
+   
+    font-size: 12px;
+    bottom:40%;
+    left:2%;
+}
+.form-input:focus ~ .textarea-lable ,
+.form-input:not(:placeholder-shown).form-input:not(:focus) ~.textarea-lable
+{
+   
+    font-size: 12px;
+    top:12%;
+    left:2%;
+}
+
+
+
+input:focus{
+    border: 1px solid aqua;
+    
+}
+
+input:hover{
+    border: 1px solid blue;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+@media (max-width:540px) {
+    .contact-form{
+        width:300px;
+        
+        
+    }
+}
+
+
+
+
+    

@@ -1,0 +1,24 @@
+.footer{
+    background-color: #121212;
+    color: white;
+    height: 100px;
+}
+.centerfooter{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 26px; 
+    justify-content: center; 
+    padding-top: 20px;
+    color: #ffffff;
+   
+
+
+}
+.centerfooter a {
+    color: #ffffff;
+}
+.centerfooterpara{
+    margin-top: 0.7rem;
+    text-align: center;
+}
