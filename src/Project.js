@@ -43,7 +43,7 @@ export default function Project() {
                btn2 = "JavaScript"
                btn3 = "BootStrap"
                img = {covidTracker}
-               number = "02" 
+               number = "03" 
                heading = "Covid-19 Tracker"
                 discription="A React App for all the latest updates about the spread of Corona Virus in India Features:- Data is analyzed with State wise statistics are shown, District wise statistics are shown, Updated regulary (All the available time stamps are notified), Resources List for almost every city is provided which includes TestLabs, Free Food Services, etc."/>
 
@@ -54,7 +54,7 @@ export default function Project() {
                 btn1= "HTML"
                 btn2 = "CSS"
                 btn3 = "JavaScript"
-                number = "03" 
+                number = "04" 
                heading = "IP Address Tracker"
                 discription="This method of tracking can have very broad results and can sometimes only get an accurate result with some input from the user about their location.In some countries laws are in place that state a service can only track you as far as your country without your consent. If the user consents then the service can view your ISP's logs and track you as accurately as possible"/>
 
