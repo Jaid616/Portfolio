@@ -5,6 +5,7 @@ import ProjectRight from './ProjectRight'
 import covidTracker from "./images/covidTracker.png"
 import IPTracker from "./images/IPTracker.png"
 import dashboardImg from "./images/dashboard.png"
+import formdataImg from "./images/formdata.png"
 export default function Project() {
   return (
     <>
@@ -13,7 +14,7 @@ export default function Project() {
               <h2 > All Projects</h2>
               <div className="underline"></div>
             </div>
-     <ProjectLeft 
+     <ProjectRight 
                 sourceCode = "https://github.com/Jaid616/dashboard"
                 img = {dashboardImg}
                 link = "https://dashboard-4khu.onrender.com/"
@@ -24,6 +25,16 @@ export default function Project() {
                heading = "User Dashboard"
                 discription="In this project, user can register yourself. After Registration user can log in with own email id and password.
                 if the user want to change own password then user can request for change password after login." />
+<ProjectLeft 
+                sourceCode = "https://github.com/Jaid616/formdata-frontend"
+                img = {formdataImg}
+                link = "https://frontend-kajz.onrender.com/"
+                btn1= "React"
+                btn2 = "Node"
+                btn3 = "CSS"
+                number = "02" 
+               heading = "FormValidation"
+                discription="In this project, user can submit form after validation all inputs. After submit, all data store on database with the help of Node js and mongoDB" />
 
                <ProjectRight 
                sourceCode = "https://github.com/Jaid616/Covid_Tracker"
