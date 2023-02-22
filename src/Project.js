@@ -4,6 +4,7 @@ import ProjectLeft from './ProjectLeft'
 import ProjectRight from './ProjectRight'
 import covidTracker from "./images/covidTracker.png"
 import IPTracker from "./images/IPTracker.png"
+import dashboardImg from "./images/dashboard.png"
 export default function Project() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Project() {
             </div>
      <ProjectLeft 
                 sourceCode = "https://github.com/Jaid616/dashboard"
-                img = {IPTracker}
+                img = {dashboardImg}
                 link = "https://dashboard-4khu.onrender.com/"
                 btn1= "React"
                 btn2 = "Material-UI"
@@ -22,7 +23,7 @@ export default function Project() {
                 number = "01" 
                heading = "User Dashboard"
                 discription="In this project, user can register yourself. After Registration user can log in with own email id and password.
-                if the user want to change own password then user can request for change password after login."
+                if the user want to change own password then user can request for change password after login." />
 
                <ProjectRight 
                sourceCode = "https://github.com/Jaid616/Covid_Tracker"
